@@ -1,0 +1,276 @@
+body {
+    background-color: #EAEAEA;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #265bd6;
+    color: #FFFFFF;
+    height: 120px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 3em;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:link {
+    color: #FFFFFF
+}
+
+header a:visited {
+    color: #7bd49d
+}
+
+header a:hover {
+    color: #53afa3
+}
+
+nav {
+    font-weight: bold;
+    width: 160px;
+    position: absolute;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, .5);
+
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    position: relative;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+nav ul .dropdown {
+    position: relative;
+}
+
+nav ul .dropdown:hover ul {
+    display: initial;
+}
+nav ul li a {
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.15em;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    padding: 10px 30px;
+    height: 50px;
+    transition: .5s ease;
+    border-radius: 0 30px;
+}
+
+nav ul li a:hover {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+nav ul ul {
+    position: absolute;
+    left: 250px;
+    width: 200px;
+    top: 0;
+    display: none;
+    background: rgba(155, 39, 176, .4);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .1);
+}
+
+
+nav a:link {
+    color: #d494d6
+}
+
+nav a:visited {
+    color: #3973ee
+}
+
+nav a:hover {
+    color: #eca5ec
+}
+
+
+
+h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 3em;
+    letter-spacing: 0.25em;
+}
+
+h2 {
+    color: #1976D2;
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 1px 1px 1px #CCCCCC;
+}
+
+h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #000033;
+}
+
+dt {
+    color: #0e1b3a;
+}
+
+.Dell {
+    color: #1976D2;
+    font-weight: bold;
+}
+
+main ul {
+    list-style-image: url("marker.gif");
+
+}
+
+footer {
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2em;
+
+    background-color: #7fd69c;
+}
+
+#contact {
+    font-size: 90%;
+}
+
+#wrapper {
+    background-color: #083a53;
+    width: 65%;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 5px 5px 5px #6d6363;
+    border: 1px solid #000333;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to bottom, #a5f5e7, #ec9fe2);
+
+}
+
+main {
+    background-color: #dcd4e0;
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    overflow: auto;
+    margin-left: 190px;
+}
+
+#laptop {
+    background-image: url(images/Laptop.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-left: 190px;
+}
+
+
+#laptop2 {
+    background-image: url(images/Laptop2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-left: 190px;
+}
+
+#desktops {
+    background-image: url(images/Delldesktop.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-left: 190px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    float: left;
+    width: 30%;
+    padding-left: 2em;
+    padding-right: 1em;
+    color: #000504;
+}
+
+#information {
+    clear: both;
+}
+
+table {
+    border: 2px solid yellow;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+}
+
+td,
+th {
+    padding: 0.5em;
+    border: 2px solid lightsalmon;
+}
+
+.info {
+    text-align: left;
+}
+
+tr:nth-of-type(odd) {
+    background-color: lightpink;
+}
+
+form {
+    background-color: #9bcaa3;
+    font-family: Arial, sans-serif;
+    width: 350px;
+    padding: 10px;
+}
+
+label {
+    float: left;
+    clear: left;
+    display: block;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    margin-left: 110px;
+}
+
+input,
+textarea {
+    margin-top: 10px;
+    display: block;
+}
+
+.checkbox-container {
+    display: flex;
+
+}
+
+.checkbox-container label {
+    cursor: pointer;
+    display: flex;
+}
